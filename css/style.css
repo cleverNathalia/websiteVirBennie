@@ -27,6 +27,16 @@ a:hover, a:active, a:focus, a:visited {
     padding-left: 30px;
     padding-top: 14px;
 }
+.words{
+    font-family: 'alegreya';
+    font-size: 34px;
+    color: white;
+    margin-top: -20px;
+    margin-bottom: 100px;
+    align-content: center;
+    padding: 6px;
+    text-align: center;
+}
 .header .ad-block {
 	background-color: #F0F0F0;
 	width: 100%;
@@ -74,6 +84,30 @@ a:hover, a:active, a:focus, a:visited {
     margin-left: 22.33%;
     font-family: 'alegreya';
     padding: 10px;
+    font-size: 26px;
+    text-align: center;
+}
+.higuru{
+    background-color: white;
+	width: 55%;
+	height: 210px;
+	margin: 10px;
+    margin-top: 195px;
+    margin-left: 22.33%;
+    font-family: 'alegreya';
+    padding-top: 60px;
+    font-size: 26px;
+    text-align: center;
+}
+.consulta{
+    background-color: white;
+	width: 55%;
+	height: 334px;
+	margin: 10px;
+    margin-top: 124px;
+    margin-left: 22.33%;
+    font-family: 'alegreya';
+    padding-top: 60px;
     font-size: 26px;
     text-align: center;
 }

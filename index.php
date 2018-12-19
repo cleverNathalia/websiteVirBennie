@@ -1,5 +1,5 @@
 <?php
-  $dir = './';
+  $dir = '/var/www/html/bot_site';
   $files = scandir($dir);
   $pages = array();
   for($i = 0; $i < count($files); $i++){
@@ -37,7 +37,7 @@
 
   <script>console.log("<?php
     //TODO: remove
-    
+    echo count($pages);
   ?>")</script>
   <!-- Navbar with Back Button -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top normalSideNav shadow" id="sideNav">
@@ -73,7 +73,7 @@
       <div class="row">
         <div class="col-sm-12 col-xs-12 col-lg-3 col-md-3">
           <div class="mr-1 logoItem shadow w-75">
-            <a href="higuru.html">
+            <a href="hi.guru.php">
               <div class="holder mt-3">
                 <!-- COMPANY LOGO: -->
                 <!-- Important! Place logo image inside the 'img' folder -->
@@ -91,7 +91,7 @@
 
         <div class="col-sm-12 col-xs-12 col-lg-3 col-md-3">
           <div class=" mr-1 logoItem shadow w-75">
-            <a href="consultaPanel.html">
+            <a href="consultaPanel_FAQ.php">
               <div class="holder mt-3">
                 <!-- COMPANY LOGO: -->
                 <!-- Important! Place logo image inside the 'img' folder -->
@@ -100,7 +100,7 @@
               <div class="company-item d-flex flex-column flex-md-row mb-3">
                 <div class="mr-auto">
                   <!-- COMPANY NAME: -->
-                  <h4 class="mt-3">Consulta Panel</h4>
+                  <h4 class="mt-3">ConsultaPanel FAQ</h4>
                 </div>
               </div>
             </a>

@@ -36,6 +36,7 @@
 <body id="page-top" class="scroll">
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     <!-- Navbar with Back Button -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top normalSideNav shadow" id="sideNav">
         <a class="js-scroll-trigger" href="index.php">
@@ -78,6 +79,8 @@
                         </div>
                     </a>
 =======
+=======
+>>>>>>> 2386d10a35332cfc18537b8886139dc7dbf645ca
   <script>console.log("<?php
     //TODO: remove
     echo count($pages);
@@ -145,7 +148,10 @@
                 <div class="mr-auto">
                   <!-- COMPANY NAME: -->
                   <h4 class="mt-3">ConsultaPanel FAQ</h4>
+<<<<<<< HEAD
 >>>>>>> add_bots
+=======
+>>>>>>> 2386d10a35332cfc18537b8886139dc7dbf645ca
                 </div>
             </div>
 

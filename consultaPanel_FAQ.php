@@ -38,7 +38,7 @@
 
   <!-- Navbar with Back Button -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top arenaSideNav shadow" id="sideNav">
-    <a class="js-scroll-trigger" href="index.php">
+    <a class="js-scroll-trigger" href="index.html">
       <i class="fas fa-arrow-circle-left backBtn smallNavBack"></i>
       <span class="d-none d-lg-block">
         <i class="fas fa-arrow-circle-left backBtn"></i>
@@ -78,6 +78,14 @@
                   <li>What is my favourite colour?</li>
                 </h4>
               </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="my-auto mx-auto col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <div class="company-item d-flex flex-column flex-md-row ">
+            <div class="botHolder">
+              <img src="img/Bot_New.gif" alt="bot">
             </div>
           </div>
         </div>

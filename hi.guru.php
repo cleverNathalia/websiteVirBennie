@@ -25,7 +25,7 @@
 
   <!-- Navbar with Back Button -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top arenaSideNav shadow" id="sideNav">
-    <a class="js-scroll-trigger" href="index.html">
+    <a class="js-scroll-trigger" href="index.php">
       <i class="fas fa-arrow-circle-left backBtn smallNavBack"></i>
       <span class="d-none d-lg-block">
         <i class="fas fa-arrow-circle-left backBtn"></i>

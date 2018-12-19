@@ -1,5 +1,5 @@
 <?php
-  $dir = '/var/www/html/bot_site';
+  $dir = './';
   $files = scandir($dir);
   $pages = array();
   for($i = 0; $i < count($files); $i++){
@@ -37,7 +37,7 @@
 
   <script>console.log("<?php
     //TODO: remove
-    echo count($pages);
+    
   ?>")</script>
   <!-- Navbar with Back Button -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top normalSideNav shadow" id="sideNav">

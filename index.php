@@ -1,5 +1,5 @@
 <?php
-  $dir = './';
+  $dir = '/var/www/html/bot_site';
   $files = scandir($dir);
   $pages = array();
   for($i = 0; $i < count($files); $i++){
@@ -35,47 +35,73 @@
 
 <body id="page-top" class="scroll">
 
-    <!-- Navbar with Back Button -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top normalSideNav shadow" id="sideNav">
-        <a class="js-scroll-trigger" href="index.php">
-            <i class="fas fa-home backBtn smallNavBack homebtn"></i>
+  <script>console.log("<?php
+    //TODO: remove
+    echo count($pages);
+  ?>")</script>
+  <!-- Navbar with Back Button -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top normalSideNav shadow" id="sideNav">
+    <a class="js-scroll-trigger" href="index.html">
+      <i class="fas fa-home backBtn smallNavBack homebtn"></i>
 
-            <span class="d-none d-lg-block">
-                <i class="fas fa-home backBtn"></i>
-            </span>
+      <span class="d-none d-lg-block">
+        <i class="fas fa-home backBtn"></i>
+      </span>
 
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- COMPANIES & THEIR LINKS -->
-        <div class="collapse navbar-collapse navCollapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <?php
-                    for($i = 0; $i < count($pages); $i++){
-                    echo("<li class=\"nav-item\">
-                    <a class=\"nav-link\" href=\"$pages[$i]\">".chop($pages[$i],".php")."</a>
-                    </li>");
-                    }
-                ?>
-            </ul>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- COMPANIES & THEIR LINKS -->
+    <div class="collapse navbar-collapse navCollapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <?php
+          for($i = 0; $i < count($pages); $i++){
+            $name = str_replace("_"," ",chop($pages[$i],".php"));
+            echo("<li class=\"nav-item\">
+            <a class=\"nav-link\" href=\"$pages[$i]\">".$name."</a>
+            </li>");
+          }
+         ?>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid containerDisplay">
+
+    <section class=" marginContainer company-section centerPhone p-lg-5 d-flex ">
+      <div class="row">
+        <div class="col-sm-12 col-xs-12 col-lg-3 col-md-3">
+          <div class="mr-1 logoItem shadow w-75">
+            <a href="hi.guru.php">
+              <div class="holder mt-3">
+                <!-- COMPANY LOGO: -->
+                <!-- Important! Place logo image inside the 'img' folder -->
+                <img src="img/higuru.png" alt="consulta panel">
+              </div>
+              <div class="company-item d-flex flex-column flex-md-row mb-3">
+                <div class="mr-auto">
+                  <!-- COMPANY NAME: -->
+                  <h4 class="mt-3">Hi.Guru</h4>
+                </div>
+            </a>
+            </div>
+          </div>
         </div>
-    </nav>
 
-    <div class="container-fluid containerDisplay logoItemMargin">
-        <div class="row justify-content-center">
-
-            <div class="col-lg-4 col-md-4 col-sm-12 mt-3">
-                <div class="logoItem shadow">
-                    <a href="higuru.php">
-                        <div class="holder">
-                            <img src="img/higuru.png" alt="consulta panel">
-                            <div class="company-item heightName">
-                                <h4 class="">Hi.Guru</h4>
-                            </div>
-                        </div>
-                    </a>
+        <div class="col-sm-12 col-xs-12 col-lg-3 col-md-3">
+          <div class=" mr-1 logoItem shadow w-75">
+            <a href="consultaPanel_FAQ.php">
+              <div class="holder mt-3">
+                <!-- COMPANY LOGO: -->
+                <!-- Important! Place logo image inside the 'img' folder -->
+                <img src="img/consultap.png" alt="consulta panel">
+              </div>
+              <div class="company-item d-flex flex-column flex-md-row mb-3">
+                <div class="mr-auto">
+                  <!-- COMPANY NAME: -->
+                  <h4 class="mt-3">ConsultaPanel FAQ</h4>
                 </div>
             </div>
 

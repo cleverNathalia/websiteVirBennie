@@ -58,8 +58,9 @@
       <ul class="navbar-nav mr-auto">
         <?php
           for($i = 0; $i < count($pages); $i++){
+            $name = str_replace("_"," ",chop($pages[$i],".php"));
             echo("<li class=\"nav-item\">
-            <a class=\"nav-link\" href=\"$pages[$i]\">".chop($pages[$i],".php")."</a>
+            <a class=\"nav-link\" href=\"$pages[$i]\">".$name."</a>
             </li>");
           }
          ?>

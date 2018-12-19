@@ -37,7 +37,7 @@
 
     <!-- Navbar with Back Button -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top normalSideNav shadow" id="sideNav">
-        <a class="js-scroll-trigger" href="index.html">
+        <a class="js-scroll-trigger" href="index.php">
             <i class="fas fa-home backBtn smallNavBack homebtn"></i>
 
             <span class="d-none d-lg-block">
@@ -81,7 +81,7 @@
 
             <div class="col-lg-4 col-md-4 col-sm-12 mt-3">
                 <div class="logoItem shadow">
-                    <a href="consultaPanel.php">
+                    <a href="consultaPanel FAQ.php">
                         <div class="holder">
                             <img src="img/consultap.png" alt="consulta panel">
                             <div class="company-item heightName">

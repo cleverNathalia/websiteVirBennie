@@ -58,10 +58,10 @@ a:hover{
     cursor: pointer;
   }
 
-  li:hover {
-    color: grey;
-  }
   .marginContainer{
+  }
+  .heightName{
+    margin-top: 10px;
   }
   .scroll{
       overflow-x: hidden;
@@ -69,9 +69,11 @@ a:hover{
   .logoItem{
     border: 0.5px solid lightgrey;
     border-radius: 10px;
-    height: 20%;
+    width: auto;
+    height: auto;
     transition: 0.3s;
     background-color: white;
+    padding: 18px;
   }
   .logoItem:hover{
     transform: scale(1.15);
@@ -84,7 +86,7 @@ a:hover{
   }
 
   .holder img {
-    width: 100%;
+    width: 80%;
     /* Will shrink image to 30% of its original width */
     height: auto;
     border-radius: 24px;
@@ -137,6 +139,12 @@ a:hover{
   }
 /* IPAD & PHONE */
   @media(max-width:991px) {
+    
+    .logoItemMargin{
+      padding-right: 40px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
     .marginContainer{
         margin-right: 2rem;
       }
@@ -178,7 +186,13 @@ a:hover{
 
   }
 /* DESKTOP */
-  @media (min-width:992px) {
+  @media (min-width:992px) {    
+    .logoItemMargin{
+      padding-left: 200px;
+      padding-right: 40px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
     .fixed-top {
         top: 0;
         right: 0;
@@ -311,3 +325,4 @@ a:hover{
   a:hover {
     color: #5472D2
   }
+

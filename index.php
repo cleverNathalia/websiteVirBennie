@@ -13,21 +13,21 @@
 
 <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Hi.Guru Bots</title>
+    <title>Hi.Guru Bots</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
 
 </head>
 <style>
@@ -103,64 +103,36 @@
                   <!-- COMPANY NAME: -->
                   <h4 class="mt-3">ConsultaPanel FAQ</h4>
                 </div>
-              </div>
-            </a>
-          </div>
-        </div>
+            </div>
 
-        <div class="col-sm-12 col-xs-12 col-lg-3 col-md-3">
-          <div class="mr-1 logoItem shadow w-75">
-            <a href="consultaPanel.html">
-              <div class="holder mt-3">
-                <!-- COMPANY LOGO: -->
-                <!-- Important! Place logo image inside the 'img' folder -->
-                <img src="img/consultap.png" alt="consulta panel">
-              </div>
-              <div class="company-item d-flex flex-column flex-md-row mb-3">
-                <div class="mr-auto">
-                  <!-- COMPANY NAME: -->
-                  <h4 class="mt-3">Consulta Panel</h4>
+            <div class="col-lg-4 col-md-4 col-sm-12 mt-3">
+                <div class="logoItem shadow">
+                    <a href="consultaPanel FAQ.php">
+                        <div class="holder">
+                            <img src="img/consultap.png" alt="consulta panel">
+                            <div class="company-item heightName">
+                                <h4 class="">Consulta Panel</h4>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-              </div>
-            </a>
-          </div>
-        </div>
+            </div>
 
-        <div class="col-sm-12 col-xs-12 col-lg-3 col-md-3">
-          <div class="mr-1 logoItem shadow w-75">
-            <a href="consultaPanel.html">
-              <div class="holder mt-3">
-                <!-- COMPANY LOGO: -->
-                <!-- Important! Place logo image inside the 'img' folder -->
-                <img src="img/consultap.png" alt="consulta panel">
-              </div>
-              <div class="company-item d-flex flex-column flex-md-row mb-3">
-                <div class="mr-auto">
-                  <!-- COMPANY NAME: -->
-                  <h4 class="mt-3">Consulta Panel</h4>
-                </div>
-              </div>
-            </a>
-          </div>
         </div>
-
-      </div>
-    </section>
+    </div>
 
     <hr class="m-0">
 
-  </div>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/code.js"></script>
-  <script src="js/codeJquery.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/code.js"></script>
+    <script src="js/codeJquery.js"></script>
 
 </body>
 

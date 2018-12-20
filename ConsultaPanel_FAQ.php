@@ -55,9 +55,9 @@
           <div class="holder">
             <!-- COMPANY LOGO: -->
             <!-- Important! Place logo image inside the 'img' folder -->
-            <img src="img/consultapanel_faq.png" alt="consulta panel">
+            <img src="img/ConsultaPanel_FAQ.png" alt="consulta panel">
           </div>
-          <div class="company-item d-flex flex-column flex-md-row ">
+          <div class="holder company-item d-flex flex-column flex-md-row ">
             <div class="mr-auto">
               <!-- COMPANY NAME: -->
               <h2 class="mb-0 mt-4">ConsultaPanel</h2>

@@ -12,7 +12,7 @@ nav::-webkit-scrollbar-thumb {
   background-color: white;
 }
  body {
-    font-family: Muli, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
     padding-top: 54px;
     color: #868e96;
   }
@@ -23,9 +23,8 @@ nav::-webkit-scrollbar-thumb {
   h4,
   h5,
   h6 {
-    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    font-weight: 700;
-    text-transform: uppercase;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-weight: 400;
     color: #343a40
   }
 
@@ -35,7 +34,7 @@ nav::-webkit-scrollbar-thumb {
   }
 
   h2 {
-    font-size: 3.5rem
+    font-size: 2.5rem
   }
 
   h3 {
@@ -141,7 +140,7 @@ a:hover{
   #sideNav .navbar-nav .nav-item .nav-link {
     font-weight: 800;
     letter-spacing: .05rem;
-    text-transform: uppercase;
+    text-transform: none;
   }
 
   #sideNav .navbar-toggler:focus {
@@ -256,7 +255,7 @@ a:hover{
       -ms-flex-direction: column;
       flex-direction: column;
       height: 100vh;
-      overflow-y: scroll;
+      overflow-y: auto;
     }
     #sideNav .navbar-brand {
       display: -webkit-box;
@@ -324,7 +323,7 @@ a:hover{
   }
 
   .bg-primary {
-    background-color: #5472D2 !important
+    background-color: #4A90E2 !important
   }
 
   .text-primary {

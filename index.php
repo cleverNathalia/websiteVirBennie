@@ -78,7 +78,7 @@
                         <div class=\"holder\">
                           <img src=\"img/$picture\" alt=\"$name\">
                           <div class=\"company-item\">
-                            <h4 class=\"mt-3\">$name</h4>
+                            <h5 class=\"mt-3\">$name</h5>
                           </div>
                         </div>
                       </div>

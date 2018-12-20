@@ -55,12 +55,12 @@
           <div class="holder">
             <!-- COMPANY LOGO: -->
             <!-- Important! Place logo image inside the 'img' folder -->
-            <img src="img/higuru_face.png" alt="hi.guru">
+            <img src="img/hi.guru.png" alt="hi.guru">
           </div>
-          <div class="company-item d-flex flex-column flex-md-row ">
+          <div class="holder company-item d-flex flex-column flex-md-row ">
             <div class="mr-auto">
               <!-- COMPANY NAME: -->
-              <h2 class="mb-0 mt-4">Hi.Guru</h2>
+              <h2 class="mb-0 mt-4">hi.guru</h2>
             </div>
           </div>
         </div>

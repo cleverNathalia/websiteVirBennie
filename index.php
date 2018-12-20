@@ -1,5 +1,5 @@
 <?php
-  $dir = '/var/www/html/bot_site';
+  $dir = './';
   $files = scandir($dir);
   $pages = array();
   for($i = 0; $i < count($files); $i++){
@@ -37,7 +37,7 @@
 
   <!-- Navbar with Back Button -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top normalSideNav shadow" id="sideNav">
-    <a class="js-scroll-trigger" href="index.html">
+    <a class="js-scroll-trigger" href="index.php">
       <i class="fas fa-home backBtn smallNavBack homebtn"></i>
 
       <span class="d-none d-lg-block">
@@ -68,31 +68,24 @@
   <div class="container">
     <div class="row logoItemMargin">
 
-      <div class="col-lg-4 col-md-4 col-sm-12">
-        <a href="hi.guru.html">
-          <div class="logoItem shadow mt-3">
-            <div class="holder">
-              <img src="img/higuru.png" alt="hi.guru">
-              <div class="company-item">
-                <h4 class="mt-3">Hi.Guru</h4>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-lg-4 col-md-4 col-sm-12">
-        <a href="consultaPanel_FAQ.html">
-          <div class="logoItem shadow mt-3">
-            <div class="holder">
-              <img src="img/consultap.png" alt="consulta panel">
-              <div class="company-item">
-                <h4 class="mt-3">Consulta Panel</h4>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>      
+        <?php
+            for($i = 0; $i < count($pages); $i++){
+                $name = str_replace("_"," ",chop($pages[$i],".php"));
+                $picture = chop($pages[$i], ".php").".png";
+                echo("<div class=\"col-lg-4 col-md-4 col-sm-12\">
+                    <a href=\"$pages[$i]\">
+                      <div class=\"logoItem shadow mt-3\">
+                        <div class=\"holder\">
+                          <img src=\"img/$picture\" alt=\"$name\">
+                          <div class=\"company-item\">
+                            <h4 class=\"mt-3\">$name</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>");
+            }
+        ?>
 
     </div>
   </div>

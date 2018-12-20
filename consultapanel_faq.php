@@ -60,7 +60,7 @@
           <div class="company-item d-flex flex-column flex-md-row ">
             <div class="mr-auto">
               <!-- COMPANY NAME: -->
-              <h2 class="mb-0 mt-4">Consulta Panel</h2>
+              <h2 class="mb-0 mt-4">ConsultaPanel</h2>
             </div>
           </div>
         </div>

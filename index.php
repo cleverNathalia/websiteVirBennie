@@ -1,5 +1,5 @@
 <?php
-  $dir = '/';
+  $dir = './';
   $files = scandir($dir);
   $pages = array();
   for($i = 0; $i < count($files); $i++){

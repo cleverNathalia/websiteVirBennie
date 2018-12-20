@@ -81,6 +81,10 @@ a:hover{
     z-index: 3;
     background-color: white;
   }
+  .holder{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .holder .botHolder{
     width: auto;
     display: inline-block;
@@ -93,7 +97,7 @@ a:hover{
   }
 
   .holder img {
-    width: 80%;
+    width: 100%;
     height: auto;
     border-radius: 24px;
   }

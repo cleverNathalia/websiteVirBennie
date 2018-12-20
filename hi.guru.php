@@ -55,7 +55,7 @@
           <div class="holder">
             <!-- COMPANY LOGO: -->
             <!-- Important! Place logo image inside the 'img' folder -->
-            <img src="img/higuru.png" alt="consulta panel">
+            <img src="img/higuru_face.png" alt="hi.guru">
           </div>
           <div class="company-item d-flex flex-column flex-md-row ">
             <div class="mr-auto">

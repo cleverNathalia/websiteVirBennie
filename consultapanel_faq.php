@@ -72,10 +72,10 @@
               <ul>
                 <h4 class="mb-0">
                   <!-- EXAMPLE QUESTIONS FOR USERS: -->
-                  <li>How do I look today?</li>
-                  <li>Why am I sad?</li>
-                  <li>Can I get some ice-cream?</li>
-                  <li>What is my favourite colour?</li>
+                  <li>Will I get paid?</li>
+                  <li>How did you get my information?</li>
+                  <li>I forgot my password?</li>
+                  <li>Who is SACSI?</li>
                 </h4>
               </ul>
             </div>

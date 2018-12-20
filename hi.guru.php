@@ -72,10 +72,10 @@
               <ul>
                 <h4 class="mb-0">
                   <!-- EXAMPLE QUESTIONS FOR USERS: -->
-                  <li>How do I look today?</li>
-                  <li>Why am I sad?</li>
-                  <li>Can I get some ice-cream?</li>
-                  <li>What is my favourite colour?</li>
+                  <li>Who is Hi.Guru?</li>
+                  <li>How much does it cost?</li>
+                  <li>I'd like to give some feedback</li>
+                  <li>Tell me more about your product</li>
                 </h4>
               </ul>
             </div>

@@ -57,17 +57,17 @@
             <!-- Important! Place logo image inside the 'img' folder -->
             <img src="img/ConsultaPanel_FAQ.png" alt="consulta panel">
           </div>
-          <div class="holder company-item d-flex flex-column flex-md-row ">
+          <div class="holder company-item flex-column flex-md-row ">
             <div class="mr-auto">
               <!-- COMPANY NAME: -->
-              <h2 class="mb-0 mt-4">ConsultaPanel</h2>
+              <h2 class="mb-0 mt-4 mb-4">ConsultaPanel</h2>
             </div>
-          </div>
+          </div> 
         </div>
 
         <div class="my-auto mx-auto col-lg-4 col-md-4 col-sm-12 col-xs-12">
           <h3 class="questions">Example Questions:</h3>
-          <div class="company-item d-flex flex-column flex-md-row ">
+          <div class="company-item flex-column flex-md-row ">
             <div class="mr-auto">
               <ul>
                 <h4 class="mb-0">
@@ -83,7 +83,7 @@
         </div>
 
         <div class="my-auto mx-auto col-lg-4 col-md-4 col-sm-12 col-xs-12">
-          <div class="company-item d-flex flex-column flex-md-row ">
+          <div class="company-item flex-column flex-md-row ">
             <div class="botHolder">
               <img src="img/Bot_New.gif" alt="bot">
             </div>

@@ -3,8 +3,8 @@
   $files = scandir($dir);
   $pages = array();
   for($i = 0; $i < count($files); $i++){
-    if (strpos($files[$i], '.php') !== false && strcmp($files[$i],"index.php")){
-      array_push($pages, $files[$i]);
+    if (strpos($files[$i], '.php') !== false && strcmp($files[$i],"index.php") && strcmp($files[$i],"bot.php")){
+      array_push($pages, chop($files[$i], ".php"));
     }
   }
  ?>
@@ -54,9 +54,9 @@
       <ul class="navbar-nav mr-auto">
         <?php
           for($i = 0; $i < count($pages); $i++){
-            $name = str_replace("_"," ",chop($pages[$i],".php"));
+            $name = str_replace("_"," ",$pages[$i]);
             echo("<li class=\"nav-item\">
-            <a class=\"nav-link\" href=\"$pages[$i]\">".$name."</a>
+            <a class=\"nav-link\" href=\"bot.php?name=$pages[$i]\">".$name."</a>
             </li>");
           }
          ?>
@@ -70,10 +70,10 @@
 
         <?php
             for($i = 0; $i < count($pages); $i++){
-                $name = str_replace("_"," ",chop($pages[$i],".php"));
-                $picture = chop($pages[$i], ".php").".png";
+                $name = str_replace("_"," ",$pages[$i]);
+                $picture = $pages[$i].".png";
                 echo("<div class=\"col-lg-4 col-md-4 col-sm-12\">
-                    <a href=\"$pages[$i]\">
+                    <a href=\"bot.php?name=$pages[$i]\">
                       <div class=\"logoItem shadow mt-3\">
                         <div class=\"holder\">
                           <img src=\"img/$picture\" alt=\"$name\">

@@ -71,12 +71,12 @@
         <?php
             for($i = 0; $i < count($pages); $i++){
                 $name = str_replace("_"," ",$pages[$i]);
-                $picture = $pages[$i].".png";
+                $picture = "img/".strtolower($pages[$i]).".png";
                 echo("<div class=\"col-lg-4 col-md-4 col-sm-12\">
                     <a href=\"bot.php?name=$pages[$i]\">
                       <div class=\"logoItem shadow mt-3\">
                         <div class=\"holder\">
-                          <img src=\"img/$picture\" alt=\"$name\">
+                          <img src=\"$picture\" alt=\"$name\">
                           <div class=\"company-item\">
                             <h5 class=\"mt-3\">$name</h5>
                           </div>

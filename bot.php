@@ -1,7 +1,7 @@
 <?php
 $page = $_GET["name"];
 $name = str_replace("_"," ",$page);
-include $page.'.php';
+include './pages/'.$page.'.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">

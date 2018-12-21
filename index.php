@@ -1,9 +1,9 @@
 <?php
-  $dir = './';
+  $dir = './pages';
   $files = scandir($dir);
   $pages = array();
   for($i = 0; $i < count($files); $i++){
-    if (strpos($files[$i], '.php') !== false && strcmp($files[$i],"index.php") && strcmp($files[$i],"bot.php")){
+    if (strpos($files[$i], '.php') !== false){
       array_push($pages, chop($files[$i], ".php"));
     }
   }

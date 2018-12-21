@@ -90,9 +90,12 @@ a:hover{
   }
 
   .botHolder img{
-    width: 100%;
+    width: 70%;
     height: auto;
     border-radius: 24px;
+  }
+  .botHolder{
+    text-align: center;
   }
 
   .holder img {
@@ -136,7 +139,6 @@ a:hover{
   .dev-icons .list-inline-item i:hover {
     color: #bd5d38
   }
-
   #sideNav .navbar-nav .nav-item .nav-link {
     font-weight: 800;
     letter-spacing: .05rem;
@@ -146,13 +148,24 @@ a:hover{
   #sideNav .navbar-toggler:focus {
     outline-color: #d48a6e
   }
-/* IPAD & PHONE */
-  @media(max-width:991px) {
+  /*PHONE */
+  @media(max-width:767px) {
+    .holder img {
+      width: 40%;
+      height: auto;
+      border-radius: 24px;
+    }    
     .botHolder img{
-      width: 60%;
+      width: 40%;
       height: auto;
       border-radius: 24px;
     }
+    .botHolder{
+      text-align: left;
+    }
+  }
+/* IPAD & PHONE */
+  @media(max-width:991px) {
     .logoItemMargin{
       padding-right: 40px;
       padding-top: 40px;
@@ -200,7 +213,7 @@ a:hover{
 
   }
 /* DESKTOP */
-  @media (min-width:992px) {    
+  @media (min-width:992px) {  
     .logoItemMargin{
       padding-left: 200px;
       padding-right: 40px;

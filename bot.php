@@ -11,7 +11,7 @@ include './pages/'.$page.'.php';
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Hi.Guru Bots</title>
+    <title><?php echo $name?> Bot</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

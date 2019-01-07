@@ -8,15 +8,15 @@ var body = document.body;
 var higuruChatBlock = document.createElement('div');
 higuruChatBlock.setAttribute('id', 'higuru-webchat');
 body.appendChild(higuruChatBlock);
-Higuru.WebChat.init({ selector: "#higuru-webchat", token: 'dfe5840e-47b3-42f5-bcd3-11ca536cf5e9'});
+Higuru.WebChat.init({ selector: "#higuru-webchat", token: '3abeb9b0-be71-4969-a8ef-8b66f138f32c'});
 });
 })();
 </script> 
 EOD;
 
 $questions = array(
-    "Who is hi.guru",
-    "How much does it cost?",
-    "I'd like to give some feedback",
-    "Tell me more about your product"
+    "Where is your FAQ?",
+    "How do I register?",
+    "I want to create a survey",
+    "Why should I participate?"
 );

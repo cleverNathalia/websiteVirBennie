@@ -8,7 +8,7 @@ var body = document.body;
 var higuruChatBlock = document.createElement('div');
 higuruChatBlock.setAttribute('id', 'higuru-webchat');
 body.appendChild(higuruChatBlock);
-Higuru.WebChat.init({ selector: "#higuru-webchat", token: '3abeb9b0-be71-4969-a8ef-8b66f138f32c'});
+Higuru.WebChat.init({ selector: "#higuru-webchat", token: '639d952d-1e95-4371-b7c7-2df39d630e94'});
 });
 })();
 </script> 

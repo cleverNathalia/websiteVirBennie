@@ -30,8 +30,6 @@
   <link href="css/style.css" rel="stylesheet">
 
 </head>
-<style>
-</style>
 
 <body id="page-top" class="scroll">
 
